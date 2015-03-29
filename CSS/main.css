@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Formation;
+    src: url();
+}
+*{
+    margin: 0px;
+    text-decoration: none; /* None underline on links */
+    color: inherit; /* No colored links */
+}
+    body {
+	    margin:0px;
+	    background-color: #CDDDDD;
+    }
+
+    #menu {
+        width: calc(100% - 100px);
+        height: 50px;
+        margin-left: 50px;
+        background-color: #272727;
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .links {
+        font-size: 44px;
+        background-color: #00ff3b;
+    }
+
+    .home {
+        font-size: 44px;
+        background-color: #f00;
+        text-align: center;
+    }
+
+    #container {
+        width: calc(100% - 100px);
+        height: 1000px;
+        margin-left: 50px;
+/*        background-color: #27a6f5;*/
+    }
+
+    #content {
+        background-color: #DCDCDD;
+        width: calc(100% - 100px);
+        height: 400px;
+        margin: auto;
+        margin-top: 20px;
+        border:1px solid black;
+/*        border-radius: 5px;*/
+    }
