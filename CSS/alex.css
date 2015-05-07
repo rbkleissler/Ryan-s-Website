@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Formation;
+    src: url(cubic.ttf);
+}
+*{
+    margin: 0px;
+    text-decoration: none; /* None underline on links */
+    color: inherit; /* No colored links */
+}
+    body {
+	    margin: 0px;
+	    background-color: #c6cbc1;
+    }
+
+    #container {
+        width: calc(100% - 100px);
+        height: 600px;
+        margin-left: 50px;
+/*        background-color: #27a6f5;*/
+    }
+
+    #content {
+        background-color: #c6cbc1;
+        width: calc(100% - 100px);
+        height: 200px;
+        margin: auto;
+        margin-top: 20px;
+/*        border:1px solid black;*/
+    }
+
+    #content p{
+/*        margin-left: calc(100% - 750px);*/
+        margin-top: 150px;
+        font-size: 80px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    #mainpictures {
+        margin: auto;
+        margin-left: 100px;
+    }
